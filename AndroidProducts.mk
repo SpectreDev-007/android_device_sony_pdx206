@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ghost_pdx206.mk
+    $(LOCAL_DIR)/derp_pdx206.mk
 
 COMMON_LUNCH_CHOICES := \
-    ghost_pdx206-user \
-    ghost_pdx206-userdebug \
-    ghost_pdx206-eng
+    derp_pdx206-user \
+    derp_pdx206-userdebug \
+    derp_pdx206-eng
