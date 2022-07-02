@@ -22,17 +22,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common Shapeshift stuff
-$(call inherit-product, vendor/ghost/build/common.mk)
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := pdx206
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := ghost_pdx206
+PRODUCT_NAME := awaken_pdx206
 PRODUCT_MODEL := Xperia 5 II
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
+USE_GAPPS := true
 
 TARGET_VENDOR_PRODUCT_NAME := pdx206
 
