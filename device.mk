@@ -45,10 +45,10 @@ PRODUCT_PACKAGES += \
     SemcCameraUI
 
 # DTBO
-LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
+# LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_DTB):dtb.img
+# PRODUCT_COPY_FILES += \
+#    $(LOCAL_DTB):dtb.img
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
