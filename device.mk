@@ -50,6 +50,10 @@ LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
 PRODUCT_COPY_FILES += \
     $(LOCAL_DTB):dtb.img
 
+# Overlays
+PRODUCT_PACKAGES += \
+    XperiaRefreshRate
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
