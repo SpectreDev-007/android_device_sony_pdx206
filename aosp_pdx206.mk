@@ -21,8 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from common.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Shapeshift stuff
+# Inherit some common Ghost OS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
