@@ -73,3 +73,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # MTP
 PRODUCT_PRODUCT_PROPERTIES += \
 	persist.sys.usb.config=mtp,adb
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
